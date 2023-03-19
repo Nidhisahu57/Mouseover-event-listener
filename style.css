@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #F1DEC9;
+}
+h1{
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+button{
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    background-color: #867070;
+    border-radius: 10px;
+    margin: 20px;
+    border:3px solid black;
+    padding: 10px 30px;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #867070;
+}
